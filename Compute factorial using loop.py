@@ -9,3 +9,9 @@ def fact_checkerloop(numx):
 
 results = int(input("Input the number you want to find the factorial on: "))
 print("Answer of factorial is: ",fact_checkerloop(results))
+
+#1*1 = 1
+#1*(1+1) = 2
+#2*(2+1) = 6
+#6*(3+1) = 24
+
