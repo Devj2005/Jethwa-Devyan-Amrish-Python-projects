@@ -3,8 +3,8 @@
 def digitsummer(x):
 
     sumx = 0
-    for digits in str(x):
-        sumx += int(digits)
+    for digits in str(x): #conversion into string
+        sumx += int(digits) # conversion of each digit into int
     return sumx
 
 
